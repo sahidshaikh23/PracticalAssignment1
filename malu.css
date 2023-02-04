@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.logo{
+    border-radius: 800px;
+    width: 90px;
+    position: relative;
+  
+}
+body{
+    background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png" );
+    background-size: 2100px 995px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    right: 98px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(236, 236, 55);
+    font-size: 25px;
+}
+button{
+    background-color: salmon;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    background-color: #edf1fd;
+    color:chocolate;
+    border: 1px solid black;
+}
+
+section h1{
+    color: rgb(236, 236, 55) ;
+    font-size: 120px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    
+}
+
+section{
+    position: relative;
+    left: 250px;
+    margin-top: 85px;
+}
+.btn{
+    background-color: rgb(234, 115, 102);
+    padding: 13px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+    font-size: 35px;
+    position: relative;
+    left: 230px;
+}
+.logo1
+{
+        border-radius: 800px;
+        width: 120px;
+        position: relative;
+       left:1854px;
+}
